@@ -1,6 +1,7 @@
 immutable_var = 1, 2, 'a', 'b'
 print(immutable_var)
-# immutable_var[0]=3
+# immutable_var[0]=3 Кортеж это упорядоченные коллекции элементов, которые, в отличие от списков, являются
+# неизменяемыми. Это означает, что после создания кортежа его элементы нельзя изменить, добавить или удалить.
 mutable_list = [1, 2, 'a', 'b', 'c']
 mutable_list[4] = 'modified'
 print(mutable_list)
